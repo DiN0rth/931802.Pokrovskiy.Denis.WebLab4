@@ -1,0 +1,14 @@
+﻿@model SignUp
+@{ViewData["Title"] = "SignUp";}
+
+<h1>Sign up result</h1>
+
+<div style="width:500px; display:flex">
+    <div style="width: 300px; margin-left: 250px; margin-top:2px">
+        @Model.FirstName<br>
+        @Model.LastName<br>
+        @Model.BirthDay @Model.BirthMonth @Model.BirthYear<br>
+        @Model.Email<br>
+        @Model.Password<br>
+    </div>
+</div>
